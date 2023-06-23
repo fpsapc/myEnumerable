@@ -4,7 +4,7 @@ class MyList
   include MyEnumerable
 
   def initialize(*elements)
-    @list = elements
+    @lit = elements
   end
 
   def each(&block)
